@@ -1,0 +1,204 @@
+<div>
+
+  <nav ngbNav class="navbar navbar-expand-sm navbar-light" id="neubar">
+      <div  ngbNavItem class="container">
+        <a  class="navbar-brand" href="#"> <img src="/assets/img/tele.png" ></a>
+
+        <button ngbNavLink class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div ngbDropdown class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul  ngbNav  class="navbar-nav ms-auto ">
+            <li  class="nav-item">
+              <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link mx-2" href="#">Services</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link mx-2" href="#">About</a>
+            </li>
+            
+            <!-- <li class="ngbnav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+   
+   
+   
+   <h3>{{fullName}}</h3>
+   
+    <section class="vh-100 gradient-custom-2">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-12 col-xl-10">
+      
+              <div class="card mask-custom">
+                <div class="card-body p-4 text-white">
+      
+                  <div class="text-center pt-3 pb-2">
+                   
+                    <h2 class="my-4">User List</h2>
+                  </div>
+                  <div class="m-2">
+                              <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th scope="col">Id</th>
+                                  <th scope="col">Role</th>
+                                  <th scope="col">User</th>
+                                  <th scope="col">Phone No</th>
+                                  <th scope="col">Email</th>
+                                  <th scope="col">Updated Date</th>
+                                  <th scope="col">Created Date</th>
+                                  <th scope="col" >Status</th>
+                                  <th scope="col">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td class="align-middle">
+                                    <span>1</span>
+                                  </td>
+                                  <td class="align-middle">
+                                      <span>Role-Admin</span>
+          
+                                  </td>
+                                  <td class="align-middle">
+                                    <span>John</span>
+        
+                                </td>
+                                  <td class="align-middle">
+                                      <span>03333333</span>
+          
+                                  </td>
+                                  <td class="align-middle">
+                                      <span>jia@gmail.com</span>
+          
+                                  </td>
+                                  <td class="align-middle">
+                                      <span>sep 1,2023</span>
+          
+                                  </td>
+                                  <td class="align-middle">
+                                      <span>sep 1,2023</span>
+          
+                                  </td>
+                                  <td class="align-middle">
+                                      <span>Active</span>
+          
+                                  </td>
+                                  <td class="align-middle">
+                                    <span><i class="fa-brands fa-bootstrap"></i></span>
+          
+                                </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                  <!-- <table class="table text-white mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Role</th>
+                        <th scope="col">User</th>
+                        <th scope="col">Phone No</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Updated Date</th>
+                        <th scope="col">Created Date</th>
+                        <th scope="col" >Status</th>
+                        <th scope="col">Actions</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="fw-normal">
+                        <th>
+                          
+                          <span class="ms-2">1</span>
+                        </th>
+                        <td class="align-middle">
+                          <span>John</span>
+                        </td>
+                        <td class="align-middle">
+                            <span>Role-Admin</span>
+
+                        </td>
+                        <td class="align-middle">
+                            <span>03333333</span>
+
+                        </td>
+                        <td class="align-middle">
+                            <span>jia@gmail.com</span>
+
+                        </td>
+                        <td class="align-middle">
+                            <span>sep 1,2023</span>
+
+                        </td>
+                        <td class="align-middle">
+                            <span>sep 1,2023</span>
+
+                        </td>
+                        <td class="align-middle">
+                            <span>Active</span>
+
+                        </td>
+                        <td class="align-middle">
+                          <span><i class="fa-brands fa-bootstrap"></i></span>
+
+                      </td>
+                 <i class="fa-solid fa-pen-to-square"></i>
+                    <td class="align-middle">
+                        <a class="btn btn-xs fs-10 btn-bold " href="#">Edit</a>
+                        <a class="btn btn-xs fs-10 btn-boldd " href="#">Delete</a>
+                        <div class="about">
+                            <span>Sep 1, 2023</span>
+                        </div>
+                    </td> -->
+
+                        <!-- <td class="align-middle">
+                          <a href="#!" data-mdb-toggle="tooltip" title="Done"><i
+                              class="fas fa-check fa-lg text-success me-3"></i></a>
+                          <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i
+                              class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                        </td> -->
+                      <!-- </tr>
+                     
+                    </tbody>
+                  </table>  -->
+      
+                </div>
+              </div>
+              <app-modalbox></app-modalbox>
+            </div>
+          </div>
+        </div>
+      <!-- </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+

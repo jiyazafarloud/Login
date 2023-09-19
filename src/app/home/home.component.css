@@ -1,0 +1,56 @@
+#neubar {
+    background: #ffffff;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+  }
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: #007ad0;
+    box-shadow:  #def0d1;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #881616
+  }
+  * {
+    box-sizing: border-box
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+
+  
+  .mask-custom {
+    background: #007ad0;
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  }
+
+  .col-md-12.col-xl-10 {
+    margin-bottom: auto;
+}
+img {
+  width: 100px;
+
+}
+h3 {
+    margin-left: 160px;
+    margin-top: 12px;
+}
+

@@ -1,0 +1,34 @@
+button  {
+    background-color: #ffffff;
+    margin-left: 30px;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: #ffffff;
+}
+select#app {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-inline-color: blue;
+}
+
+label {
+    margin-top: 10px;
+}
+.modal-header{
+background-color: #007ad0;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: -1;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: var(--bs-modal-title-line-height);
+    color: white;
+}

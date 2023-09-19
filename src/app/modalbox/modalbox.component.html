@@ -1,0 +1,52 @@
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" >Add User</h4>
+	</div>
+	<div class="modal-body">
+		<form>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group ">
+			<div class="mb-3">
+                <label for="app">Application</label>
+				<div class="input-group">
+					<select id="app">
+                        <option *ngFor="let data of data1" [value]="data.id">{{data.name}}</option>
+                    </select>
+					<label for="app">Key</label>
+					<div class="input-group">
+						<select id="app">
+							<option >Select</option>
+						</select>
+					
+				</div>
+				<label for="app">Value</label>
+					<div class="input-group">
+						<select id="app">
+							<option >Select</option>
+						</select>
+					
+				</div>
+				
+			</div>
+            </div>
+            </div>
+            </div>
+			</div>
+		</form>
+        </div>
+        
+	
+	<div class="modal-footer">
+		<button type="button" class="btn " (click)="modal.close('Save click')">Add User</button>
+		<button type="button" class="btn " (click)="modal.close('Save click')">Close</button>
+
+	</div>
+	
+</ng-template>
+
+<button class="btn" (click)="open(content)">Add User</button>
+
+<hr />
+
+
